@@ -1,0 +1,57 @@
+.header {
+  background: rgba(102, 102, 102, 0.2);
+  text-transform: uppercase;
+  height: 60px;
+  width: 100%;
+  display: block;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 1em; }
+  .header .sub-header {
+    width: 66.66%;
+    margin: auto; }
+    .header .sub-header .description {
+      padding: 15px 0; }
+      .header .sub-header .description .title {
+        font-size: 1.2em;
+        font-weight: 700;
+        margin-right: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .header .sub-header .description .info {
+        letter-spacing: 1.5px;
+        font-size: .85em;
+        opacity: .8;
+        display: inline-block; }
+      .header .sub-header .description .rating {
+        display: inline-block;
+        font-size: .9em;
+        padding: 6px 3px;
+        text-align: center;
+        border: 2px solid #555;
+        margin-left: 20px;
+        font-weight: 900;
+        opacity: .5; }
+
+.video {
+  width: 100%;
+  text-align: center; }
+  .video iframe {
+    width: 66.66%; }
+
+.recommendations {
+  margin-top: 2em; }
+  .recommendations .recommendations-title {
+    color: #008ee0;
+    font-family: 'Open Sans';
+    margin-top: 1em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .05em;
+    margin: 0 20px 5px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 5px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: -3em; }

@@ -1,0 +1,22 @@
+header {
+  height: 67px; }
+  header nav {
+    position: fixed;
+    z-index: 1;
+    background-color: #000000;
+    width: 100%; }
+    header nav ul {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0; }
+      header nav ul li a {
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0 1em;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px; }
+      header nav ul li img {
+        width: 235px;
+        padding: 8px 0; }

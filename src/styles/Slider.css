@@ -1,0 +1,45 @@
+.films-wrapper {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2em;
+  padding-top: 2em; }
+  .films-wrapper .slick-prev, .films-wrapper .slick-next {
+    width: 35px;
+    height: 70px;
+    z-index: 1;
+    top: 40%; }
+  .films-wrapper a {
+    text-decoration: none; }
+  .films-wrapper figure {
+    margin: 1em 0;
+    position: relative;
+    margin-right: 1em; }
+    .films-wrapper figure .card img {
+      width: 187px;
+      height: 235px; }
+    .films-wrapper figure .card i {
+      display: none; }
+    .films-wrapper figure .card:hover {
+      cursor: pointer;
+      box-shadow: 0 0 34px 0 #08f; }
+      .films-wrapper figure .card:hover i {
+        display: unset;
+        position: absolute;
+        z-index: 999;
+        top: 37%;
+        left: 45%;
+        color: #008ee0;
+        font-size: 3em; }
+    .films-wrapper figure figcaption {
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: -.03em;
+      font-size: .8em;
+      opacity: 1;
+      transition: opacity .5s;
+      word-break: break-word;
+      padding: 5px; }
+  .films-wrapper span {
+    color: white; }

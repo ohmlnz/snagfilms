@@ -1,0 +1,66 @@
+.films-wrapper {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2em;
+  padding-top: 2em;
+
+  .slick-prev, .slick-next {
+    width: 35px;
+    height: 70px;
+    z-index: 1;
+    top: 40%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  figure {
+    margin: 1em 0;
+    position: relative;
+    margin-right: 1em;
+
+    .card {
+      img {
+        width: 187px;
+        height: 235px;
+      }
+
+      i {
+        display: none;
+      }
+
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 34px 0 #08f;
+
+        i {
+          display: unset;
+          position: absolute;
+          z-index: 999;
+          top: 37%;
+          left: 45%;
+          color: #008ee0;
+          font-size: 3em;
+        }
+      }
+    }
+
+    figcaption {
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: -.03em;
+      font-size: .8em;
+      opacity: 1;
+      transition: opacity .5s;
+      word-break: break-word;
+      padding: 5px;
+    }
+  }
+
+  span {
+    color: white;
+  }
+}

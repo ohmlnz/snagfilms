@@ -1,0 +1,31 @@
+footer {
+  .footer {
+    border-top: 8px solid #008ee0;
+    background: #212222;
+    min-height: 75px;
+    display: flex;
+
+
+    ul {
+      padding: 2em 0;
+      display: flex;
+      color: white;
+      list-style-type: none;
+      justify-content: center;
+      margin: auto;
+
+      li {
+        padding: 0 2em;
+         a {
+           color: white;
+           text-decoration: none;
+           font-size: .85em;
+           display: inline-block;
+           font-weight: bolder;
+           margin: 5px 10px;
+           font-family: 'Open Sans', sans-serif;
+         }
+      }
+    }
+  }
+}
